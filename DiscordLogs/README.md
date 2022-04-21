@@ -2,6 +2,8 @@
 
 Good day, I have finished something small here.
 
+**[DOWNLOAD](https://topic-scripts.tebex.io/package/5069543)**
+
 I know there are already several Discord log scripts. Nevertheless, I present you my free DiscordLog script.
 
 What do I offer?
