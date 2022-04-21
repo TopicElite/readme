@@ -1,4 +1,4 @@
-#Topic-DiscordLogs: es_extended
+# Topic-DiscordLogs: es_extended
 
 The following changes must be made in es_extended.
 
