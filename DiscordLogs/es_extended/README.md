@@ -6,7 +6,7 @@ If you are using ESX 1.2 and you have not changed anything in *"server/commands.
 
 Otherwise you have to maintain it on your own.
 
-***TEMPLATE:***s
+***TEMPLATE:***
 ```lua
     TriggerEvent('7Logs:CommandLog', xPlayer, '/COMMAND', 'INFORMATION BEHIND COMMANDS')
 ```
