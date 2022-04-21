@@ -19,8 +19,6 @@ If you want to use the DrugsLog, I offer a template for esx_drugs, otherwise you
 
 For further questions I am available on my Discord server. 
 
-Translated with www.DeepL.com/Translator (free version)
-
 Bugs or requests are welcome to be reported via my [Discord Server](https://discord.gg/TymDT77Fvd)
 
 **Please do not republish this script or sell it on other platforms.**
