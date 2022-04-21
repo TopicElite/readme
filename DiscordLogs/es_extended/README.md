@@ -2,7 +2,7 @@
 
 The following changes must be made in es_extended.
 
-If you are using ESX 1.2 and you have not changed anything in *"server/commands.lua"*, you can use the file that is included in the download.
+If you are using **ESX 1.2** and you have not changed anything in *"server/commands.lua"*, you can use the file that is included in the download.
 
 Otherwise you have to maintain it on your own.
 
@@ -10,6 +10,7 @@ Otherwise you have to maintain it on your own.
 ```lua
     TriggerEvent('7Logs:CommandLog', xPlayer, '/COMMAND', 'INFORMATION BEHIND COMMANDS')
 ```
+
 
 **Command Log:**
 *"setjob":*
@@ -62,10 +63,21 @@ If you are using ESX 1.2 and you have not changed anything in *"server/classes/p
 
 Otherwise you have to maintain it on your own.
 
-***TEMPLATE:***s
+***TEMPLATE MONEY:***
+```lua
+    TriggerEvent('7DiscordLog:MoneyLog', xPlayer, 'Add, Remove, Set', ACCOUNT_NAME, money)
+```
+
+***TEMPLATE ITEM:***
+```lua
+    TriggerEvent('7DiscordLog:ItemsLog', xPlayer, 'Add, Remove', 'ITEM_NAME', AMOUNT)
+```
+
+***TEMPLATE WEAPON:***
 ```lua
     TriggerEvent('7DiscordLog:WeaponLog', xPlayer, 'Add, Remove, Set', 'weapon, component, ammo, tint', weaponName, information)
 ```
+
 
 **Money Log:**
 *"setAccountMoney":*
